@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+
+
+
+
+p {
+  font-size: 16px;
+  color: orange;
+}
+
+
+h1 {
+  font-size: 50px;
+  color: indigo;
+}
+
+li {
+  font-size: 20px;
+  color: orange;
+}
+  h2 {
+    font-size: 46px;
+    color: indigo;
+  }
+
+  h3 {
+    font-size: 40px;
+    color: indigo;
+  }
