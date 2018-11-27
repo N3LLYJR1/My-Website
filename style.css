@@ -30,6 +30,9 @@ li {
     color: indigo;
   }
 
+@media screen and (min-width:100px) and (max-width:100px)
+
+
 .images {
 	width:  70%;
 }
