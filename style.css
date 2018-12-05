@@ -1,33 +1,203 @@
 @charset "utf-8";
 
 
+body{ 
+	animation-name: colorchange;
+	animation-duration: 30s;
+	
+}
+  @-moz-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
 
+  @keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+     }
 
-
+  @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
 
 p {
   font-size: 16px;
-  color: orange;
+ 
+	
 }
 
 
 h1 {
   font-size: 50px;
-  color: indigo;
+
 }
 
 li {
   font-size: 20px;
-  color: orange;
+  
 }
   h2 {
     font-size: 46px;
-    color: indigo;
+    
   }
 
   h3 {
     font-size: 40px;
-    color: indigo;
+   
   }
 
 @media screen and (min-width:100px) and (max-width:100px)
@@ -36,4 +206,18 @@ li {
 .images {
 	width:  70%;
 }
+}
+
+@media screen and (min-width:300px) and (max-width:650px){
+.videos {
+	width:  80%;
+	}
+}
+@media screen and (min-width:100px) and (max-width:100px){
+ .words{
+	 width:  60%;
+	}
+}
+ 
+
 
